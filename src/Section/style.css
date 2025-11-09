@@ -10,7 +10,7 @@
     border-bottom: 1px solid #ddd;
     display: grid;
     align-items: center;
-    padding: 20px;
+    padding: 18px;
     justify-content: space-between;
     grid-template-columns: auto auto;
     grid-gap: 20px;
