@@ -13,8 +13,6 @@ const getInitialTasks = () => {
     : [];
 };
 
-
-
 function App() {
   const [hideDone, setHideDone] = useState(false);
   const [tasks, setTasks] = useState(getInitialTasks);
@@ -45,11 +43,16 @@ function App() {
     setTasks(tasks => tasks.map(task => ({
       ...task,
       done: true
-
     })));
   };
 
   const addNewTask = (content) => {
+
+    if (content.trim() === "") {
+      return;
+    }
+
+
     setTasks(tasks => [
       ...tasks,
       {
@@ -59,7 +62,6 @@ function App() {
       }
     ]);
   }
-
 
   return (
     <Container>
@@ -87,8 +89,6 @@ function App() {
             setAllDone={setAllDone}
           />
         }
-
-
       />
     </Container>
   );
