@@ -23,5 +23,7 @@
 }
 
 .buttons__button:disabled {
-    color: ccc;
+    color: #ccc;
+    opacity: 0.8;
+    cursor: not-allowed;
 }
