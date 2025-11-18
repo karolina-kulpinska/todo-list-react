@@ -1,6 +1,5 @@
 # Task List 
 
-## This is what the application looks like
 ![Zrzut ekranu](public/Image/readme.demo.png)
 
 
