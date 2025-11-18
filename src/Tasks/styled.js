@@ -20,9 +20,9 @@ export const Item = styled.li`
 `;
 
 export const Content = styled.span`
-  ${({ $done }) =>  $done && css`
-      text-decoration: line-through;
-    `}
+   ${({ $done }) => $done && css`
+       text-decoration: line-through;
+   `}
 `;
 
 export const Button = styled.button`
@@ -33,18 +33,18 @@ export const Button = styled.button`
   padding: 0;
   transition: background 0.3s;
 
-  ${({$toggleDone}) => $toggleDone && css`
-   background: ${({ theme }) => theme.color.forest};
+  ${({ $toggleDone }) => $toggleDone && css`
+      background: ${({ theme }) => theme.color.forest};
 
     &:hover {
-     background: ${({ theme }) => theme.color.forest};
+      background: ${({ theme }) => theme.color.forest};
   `}
 
-  ${({ $remove}) => $remove && css`
-   background: ${({ theme }) => theme.color.crimson};
+  ${({ $remove }) => $remove && css`
+      background: ${({ theme }) => theme.color.crimson};
    `}
 
-     &:hover {
+    &:hover {
       filter: brightness(110%);
 }
 
