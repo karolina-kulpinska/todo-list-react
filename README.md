@@ -1,7 +1,6 @@
 # Task List 
 
-Link for my website: https://karolina-kulpinska.github.io/todo-list-react/
-
+## [LIVE DEMO](https://karolina-kulpinska.github.io/todo-list-react/)
 
 The app was created to let you set goals and tasks for yourself. You can delete or add anything you want. Have fun!
 
