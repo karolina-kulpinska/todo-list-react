@@ -1,5 +1,9 @@
 # Task List 
 
+## This is what the application looks like
+![Zrzut ekranu](public/Image/readme.demo.png)
+
+
 ## [LIVE DEMO](https://karolina-kulpinska.github.io/todo-list-react/)
 
 The app was created to let you set goals and tasks for yourself. You can delete or add anything you want. Have fun!
@@ -9,7 +13,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run
 
 ### `npm start`
 
