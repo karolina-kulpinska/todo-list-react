@@ -9,19 +9,16 @@ import { useTasks } from './useTasks';
 
 
 function App() {
-  const [hideDone, setHideDone] = useState(false);
 
   const {
     tasks,
     removeTask,
     toggleTaskDone,
     setAllDone,
-    addNewTask
+    addNewTask,
+    hideDone,
+    toggleHideDone,
   } = useTasks();
-
-  const toggleHideDone = () => {
-    setHideDone(hideDone => !hideDone);
-  };
 
   return (
     <Container>
