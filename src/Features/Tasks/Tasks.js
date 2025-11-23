@@ -5,47 +5,21 @@ import Buttons from '../Tasks/Buttons';
 import Section from '../../Common/Section';
 import Header from '../../Common/Header';
 import Container from '../../Common/Container';
-import { useTasks } from '../../useTasks';
-
 
 function Tasks() {
-
-  const {
-    tasks,
-    removeTask,
-    toggleTaskDone,
-    setAllDone,
-    addNewTask,
-    hideDone,
-    toggleHideDone,
-  } = useTasks();
 
   return (
     <Container>
       <Header title="Lista zadań" />
       <Section
         title="Dodaj nowe zadanie"
-        body={<Form addNewTask={addNewTask} />}
+        body={<Form />}
       />
 
       <Section
         title="Lista zadań"
-        body={
-          <TasksList
-            tasks={tasks}
-            hideDone={hideDone}
-            removeTask={removeTask}
-            toggleTaskDone={toggleTaskDone}
-          />
-        }
-        extraHeaderContent={
-          <Buttons
-            tasks={tasks}
-            hideDone={hideDone}
-            toggleHideDone={toggleHideDone}
-            setAllDone={setAllDone}
-          />
-        }
+        body={<TasksList />}
+        extraHeaderContent={<Buttons />}
       />
     </Container>
   );
