@@ -5,6 +5,7 @@ import { GlobalStyle } from './GlobalStyle';
 import { theme } from './theme';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
+import store from './store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
