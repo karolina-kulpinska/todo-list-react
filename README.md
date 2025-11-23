@@ -5,41 +5,46 @@
 
 ## [LIVE DEMO](https://karolina-kulpinska.github.io/todo-list-react/)
 
-The app was created to let you set goals and tasks for yourself. You can delete or add anything you want. Have fun!
-
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# TO-DO LIST APP: Get Stuff Done!
 
-In the project directory, you can run
+Hey there! Welcome to my simple but powerful To-Do List app. It's built to help you quickly set and crush your daily goals.
 
-### `npm start`
+The best part? **We've got data persistence now!** That means your tasks stick around, even after you close the browser, thanks to some back-end magic (see tech section below).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Key Features You'll Love
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* **Quick Add:** Easily throw new tasks onto the list.
+* **Mark Complete:** Toggle tasks as done with a quick click.
+* **Bulk Actions:** Finish up your day by marking everything as complete!
+* **Filtering:** Hide those completed tasks to focus on what’s left.
+* **Data That Stays:** No more losing your progress after a refresh!
 
+## ⚙️ Core Technology Stack
 
-### `npm run build`
+This project is a React application powered by modern state management and data storage solutions. It's robust, fast, and scalable.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Technology | Why We Used It |
+| :--- | :--- |
+| **React.js** | For building a snappy, component-based user interface. |
+| **Redux Toolkit (RTK)** | This is the engine! It manages the entire application state (all your tasks) in a predictable way. No more tangled local state! |
+| **Firebase Firestore** | This super-fast cloud database handles data persistence. It makes sure your tasks are saved permanently in your session and are instantly loaded when you return. |
+| **Styled Components** | For writing clean, modular CSS directly within our JavaScript components. |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📚 Available Scripts
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+In the project directory, you can run:
 
-### `npm run eject`
+`npm start`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser. The page will reload when you make changes.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`npm run build`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Builds the app for production to the `build` folder. Your app is ready to be deployed!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+`npm run eject`
 
+**Note:** this is a one-way operation. We don't recommend this for most people, but the option is there if you need full, low-level control over the configuration.
