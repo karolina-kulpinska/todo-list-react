@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Form from './Form';
-import Tasks from './Tasks';
+import TasksList from './Tasks';
 import Buttons from './Buttons';
-import Section from './Section';
-import Header from './Header';
-import Container from './Container';
-import { useTasks } from './useTasks';
+import Section from '../../Common/Section';
+import Header from '../../Common/Header';
+import Container from '../../Common/Container';
+import { useTasks } from '../../useTasks';
 
 
-function App() {
+function Tasks() {
 
   const {
     tasks,
@@ -31,7 +31,7 @@ function App() {
       <Section
         title="Lista zadań"
         body={
-          <Tasks
+          <TasksList
             tasks={tasks}
             hideDone={hideDone}
             removeTask={removeTask}
@@ -51,4 +51,4 @@ function App() {
   );
 }
 
-export default App;
+export default Tasks;

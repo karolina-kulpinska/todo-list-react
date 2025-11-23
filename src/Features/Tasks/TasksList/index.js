@@ -1,15 +1,15 @@
 import React from "react";
 import { TaskList, Item, Content, Button } from "./styled";
 
-const Tasks = ({ tasks, hideDone, removeTask, toggleTaskDone }) => (
+const TasksList = ({ tasks, hideDone, removeTask, toggleTaskDone }) => (
   <TaskList>
     {tasks.map((task) => (
-      <Item 
-      key={task.id} 
-      $hidden={task.done && hideDone}
+      <Item
+        key={task.id}
+        $hidden={task.done && hideDone}
       >
         <Button
-        $toggleDone
+          $toggleDone
           onClick={() => toggleTaskDone(task.id)}
         >
           {task.done ? "✔" : ""}
@@ -20,8 +20,8 @@ const Tasks = ({ tasks, hideDone, removeTask, toggleTaskDone }) => (
         </Content>
 
         <Button
-        $remove
-        onClick={() => removeTask(task.id)}
+          $remove
+          onClick={() => removeTask(task.id)}
         >
           🗑
         </Button>
@@ -30,4 +30,4 @@ const Tasks = ({ tasks, hideDone, removeTask, toggleTaskDone }) => (
   </TaskList>
 );
 
-export default Tasks;
+export default TasksList;
