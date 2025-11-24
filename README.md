@@ -6,8 +6,6 @@
 ## [LIVE DEMO](https://karolina-kulpinska.github.io/todo-list-react/)
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 # Get Stuff Done!
 
 Hey there! Welcome to my simple but powerful To-Do List app. It's built to help you quickly set and crush your daily goals.
