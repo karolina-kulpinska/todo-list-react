@@ -8,11 +8,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# TO-DO LIST APP: Get Stuff Done!
+# Get Stuff Done!
 
 Hey there! Welcome to my simple but powerful To-Do List app. It's built to help you quickly set and crush your daily goals.
 
-The best part? **We've got data persistence now!** That means your tasks stick around, even after you close the browser, thanks to some back-end magic (see tech section below).
 
 ## 🚀 Key Features You'll Love
 
@@ -20,7 +19,6 @@ The best part? **We've got data persistence now!** That means your tasks stick a
 * **Mark Complete:** Toggle tasks as done with a quick click.
 * **Bulk Actions:** Finish up your day by marking everything as complete!
 * **Filtering:** Hide those completed tasks to focus on what’s left.
-* **Data That Stays:** No more losing your progress after a refresh!
 
 ## ⚙️ Core Technology Stack
 
@@ -30,7 +28,6 @@ This project is a React application powered by modern state management and data 
 | :--- | :--- |
 | **React.js** | For building a snappy, component-based user interface. |
 | **Redux Toolkit (RTK)** | This is the engine! It manages the entire application state (all your tasks) in a predictable way. No more tangled local state! |
-| **Firebase Firestore** | This super-fast cloud database handles data persistence. It makes sure your tasks are saved permanently in your session and are instantly loaded when you return. |
 | **Styled Components** | For writing clean, modular CSS directly within our JavaScript components. |
 
 ## 📚 Available Scripts
