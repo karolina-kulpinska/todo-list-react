@@ -1,19 +1,14 @@
-import { useState } from "react";
-import { useDispatch } from "react-redux";
-import { fetchExampleTasks } from "../../tasksSlice";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchExampleTasks, selectTasksState } from "../../tasksSlice";
 import { Button } from "../Buttons/styled";
 
 const GetExampleTasksButton = () => {
     const dispatch = useDispatch();
-    const [loading, setLoading] = useState(false);
+    const { loading } = useSelector(selectTasksState);
 
     const handleClick = () => {
-        setLoading(true);
         dispatch(fetchExampleTasks());
 
-        setTimeout(() => {
-            setLoading(false);
-        }, 1000);
     };
 
     return (
