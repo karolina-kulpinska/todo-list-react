@@ -1,6 +1,7 @@
 # Task List 
 
 ![Zrzut ekranu](public/Image/readme.demo.png)
+![Zrzut ekranu](public/Image/readme.demo.1.png.png)
 
 
 ## [LIVE DEMO](https://karolina-kulpinska.github.io/todo-list-react/)
