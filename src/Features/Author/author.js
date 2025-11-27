@@ -10,7 +10,8 @@ const Author = () => (
             title="Karolina Kulpińska"
             body={
                 <>
-                    Mieszkam w okolicy Nysy. Skończyłam administrację, ale czułam, że <strong>to nie jest moje powołanie</strong>, dlatego zaczęłam kurs Frontend Developer, który bardzo mnie wciągnął.
+                    Cześć!
+                    <br />Mam na imię Karolina i mieszkam w okolicach Nysy. Skończyłam administrację, ale czułam, że to nie jest moje powołanie dlatego zaczęłam kurs Frontend Developer, który bardzo mnie wciągnął.
                     <br />
                     W wolnym czasie lubię czytać książki i uwielbiam też długie spacery z moim psem Lokim (jak już zdołam ściągnąć go z kanapy).
                     <br />
