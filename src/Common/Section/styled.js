@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Header = styled.header`
   border-bottom: 1px solid ${({ theme }) => theme.color.borderGray};
-  display: grid;
+  display: flex;
   grid-template-columns: auto auto;
   grid-gap: 20px;
   justify-content: space-between;
