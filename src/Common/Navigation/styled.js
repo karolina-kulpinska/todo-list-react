@@ -13,6 +13,7 @@ export const StyledNavLink = styled(NavLink)`
 
   &:hover {
     text-decoration: underline;
+    background-color: ${({ theme }) => theme.color.tealHover};
   }
 
   &.active {
