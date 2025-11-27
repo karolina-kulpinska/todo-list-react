@@ -1,25 +1,25 @@
 import Form from "./Form";
-import TaskList from "./TaskList";
+import TasksList from "./TasksList";
 import Buttons from "../Buttons";
 import Section from "../../../Common/Section";
 import Header from "../../../Common/Header";
 import { Container } from "../../../Common/Container";
 import Search from "./Search";
-import GetExampleTasksButton from "./GetExampleTasksButton";
+import FetchExampleTasksButton from "./FetchExampleTasksButton";
 
 function TasksPage() {
     return (
         <Container>
             <Header title="Lista zadań" />
             <Section
-                title="Dodaj nowe zadanie"
+                title="Dodaj  zadanie"
                 body={<Form />}
-                extraHeaderContent={<GetExampleTasksButton />}
+                extraHeaderContent={<FetchExampleTasksButton />}
             />
             <Section title="Wyszukiwarka" body={<Search />} />
             <Section
                 title="Lista zadań"
-                body={<TaskList />}
+                body={<TasksList />}
                 extraHeaderContent={<Buttons />}
             />
         </Container>

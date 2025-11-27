@@ -3,9 +3,9 @@ import {
   toggleTaskDone,
   removeTask,
   selectHideDone,
-} from "../../tasksSlice";
+} from "../../tasksSlice.js";
 import searchQueryParamName from "../searchQueryParamName.js";
-import { List, Item, Content, Button, TaskLink } from "./styled";
+import { List, Item, Content, Button, TaskLink } from "./styled.js";
 import { useSelector, useDispatch } from "react-redux";
 import { useLocation } from "react-router-dom";
 import { toTask } from "../../../../routes.js";

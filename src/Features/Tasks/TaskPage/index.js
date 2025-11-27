@@ -1,5 +1,5 @@
 import Section from "../../../Common/Section";
-import Header from ".../../../Common/Header";
+import Header from "../../../Common/Header";
 import { Container } from "../../../Common/Container";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";

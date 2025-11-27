@@ -1,6 +1,7 @@
 import Header from "../../Common/Header";
 import Section from "../../Common/Section";
-import Container from "../../Common/Container";
+import { Container } from '../../Common/Container';
+
 
 const Author = () => (
     <Container>
