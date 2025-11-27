@@ -1,15 +1,20 @@
 export const theme = {
     color: {
-        black: "#000",
-        silver: "#ccc",
-        alto: "#ddd",
-        gallery: "#eee",
-        white: "#fff",
-        teal: "#008080",
-        crimson: "#db143c",
-        forest: "#228c22",
+        black: "rgba(0, 0, 0, 1)",
+        white: "rgba(255, 255, 255, 1)",
+        gray: "#ededed",
+        borderGray: "#dddddd",
+        teal: "#008181ff",
+        tealHover: "#006666",
+        tealActive: "#004c4c",
+        green: "hsl(122, 65%, 29%)",
+        greenHover: "hsl(122, 65%, 35%)",
+        greenActive: "hsl(122, 65%, 40%)",
+        red: "hsl(354, 84%, 54%)",
+        redHover: "hsl(354, 84%, 60%)",
+        redActive: "hsl(354, 84%, 65%)",
     },
-    breakpoint: {
-        mobileMax: 767,
+    breakpoints: {
+        mobileMax: "767px",
     },
 };
