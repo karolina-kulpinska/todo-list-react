@@ -1,6 +1,6 @@
 # Task List 
 
-![Zrzut ekranu](public/Image/readme.demo.png)
+![Zrzut ekranu](public/Image/readme.demo.png.png)
 ![Zrzut ekranu](public/Image/readme.demo.1.png.png)
 
 
